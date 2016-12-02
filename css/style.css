@@ -1,5 +1,60 @@
-
-
+body{
+    min-width: 320px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/*=======section.section-header=======*/
+.my-btn{
+    display: inline-block;
+    padding: 10px 25px; 
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: .3s;
+    margin: 10px;
+}
+a.my-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.my-btn-blue{
+    background-color: #4e7ed3;
+}
+.my-btn-blue:hover{
+    background-color: #386ece;
+}
+.my-btn-grey{
+    background-color: #6a7079;
+}
+.my-btn-grey:hover{
+    background-color: #5d6167;
+}
+section.section-header{
+    background-image: url(../img/brand.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.header-top{
+    color: #fff;
+    padding: 30px;
+}
+.header-top>div.logo>img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px
+}
+.header-top>h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.header-top>p{
+    
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -17,5 +72,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .header-top>h1{
+        font-size: 24px;
+    }
 }

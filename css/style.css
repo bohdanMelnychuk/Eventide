@@ -7,6 +7,11 @@ body{
     font-weight: normal;
 }
 /*=======section.section-header=======*/
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .my-btn{
     display: inline-block;
     padding: 10px 25px; 
@@ -44,6 +49,7 @@ section.section-header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    min-height: 700px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -65,10 +71,113 @@ section.section-header{
 .header-top>h1{
     text-transform: uppercase;
     font-size: 30px;
+    font-family: Ubuntu;
 }
 .header-top>p{
+    font-size: 20px;
+}
+
+
+/*========section.main-event========*/
+.main-event {
+   padding: 80px 0;
+    background-color: #fff;
     
 }
+
+.main-event .col-md-6.main-event .col-md-6 p {
+}
+.main-event h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-family: Ubuntu;
+}
+.main-event .lead a {
+    color: #828282;
+    font-size: 16px;
+}
+.main-event .tabs {
+    border: 3px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ececec;
+}
+.main-event .nav {
+}
+.main-event .tabs .nav-tabs li:not(.active) {
+     background-color: #c3c0c0;
+}
+.main-event .nav a.tab-control:active,
+.main-event .nav a.tab-control:focus,
+.main-event .nav a.tab-control:hover{
+    color: #828282;
+/*    background-color: #5d6167;*/
+}
+.main-event li.active{
+   
+} 
+.main-event .active {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.main-event  a.tab-control {
+    color: #828282;
+}
+.main-event .content{
+    padding: 20px 10px
+}
+.main-event #learning {
+}
+.main-event #learning.main-event #learning.main-event #learning p {
+}
+.main-event .learn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main-event #learning .list-learn {
+    
+}
+.main-event #learning li {
+}
+.main-event #learning img {
+}
+.main-event #audience {
+}
+.main-event #audience.main-event #audience p {
+}
+.main-event #audience .learn {
+}
+.main-event #audience .list-learn {
+}
+.main-event #audience li {
+}
+.main-event #audience img {
+}
+
+
+
+
+
+
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 

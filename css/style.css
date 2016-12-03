@@ -152,71 +152,39 @@ section.section-header{
     padding-bottom: 80px;
     margin-bottom: 100px;
 }
-.spaekers .row {
+.spaekers .speaker-head {
+    margin-bottom: 80px;
 }
-.spaekers .row .col-sm-6 {
+.spaekers .speaker-head h3 {
+    
 }
-.spaekers .row .col-sm-6.spaekers .row .col-sm-6 .speaker-body {
+.spaekers .speaker-head p.lead {
+    
 }
-.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
+
+.spaekers .speaker-body {
+    margin-bottom: 70px;
 }
-.spaekers .row .col-sm-6 .speaker-body .img-responsive {
+.spaekers .speaker-body .block-name {
 }
-.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
+.spaekers .speaker-body .block-name img.img-responsive {
+    margin: 0 auto;
 }
-.spaekers .row .col-sm-6 .speaker-body p {
+.spaekers .speaker-body .block-name h4{
+    margin: 20px 0;
 }
-.spaekers .row .col-sm-6 .speaker-body {
-}
-.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
-}
-.spaekers .row .col-sm-6 .speaker-body .img-responsive {
-}
-.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
-}
-.spaekers .row .col-sm-6 .speaker-body p {
-}
-.spaekers .row .col-sm-6 .speaker-body {
-}
-.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
-}
-.spaekers .row .col-sm-6 .speaker-body .img-responsive {
-}
-.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
-}
-.spaekers .row .col-sm-6 .speaker-body p {
-}
-.spaekers .row .col-sm-6 {
-}
-.spaekers .row .col-sm-6.spaekers .speaker-head {
-}
-.spaekers .speaker-head.spaekers .speaker-head .lead {
-}
-.spaekers h3 {
-}
-.spaekers .col-sm-3 {
-}
-.spaekers .col-sm-3 .speaker-body {
-}
-.spaekers .col-sm-3 .speaker-body.spaekers .col-sm-3 .block-name {
-}
-.spaekers .col-sm-3 .img-responsive {
-}
-.spaekers .col-sm-3 .img-responsive.spaekers .col-sm-3 h4 {
-}
-.spaekers .col-sm-3 p {
+.spaekers .speaker-body p{
+    height: 100%;
+    overflow: hidden;
 }
 .spaekers .speaker-footer {
+    padding-top: 20px;
 }
-.spaekers .speaker-footer.spaekers .speaker-footer .lead {
+.spaekers .speaker-footer p.lead {
 }
 .spaekers .btn-reg {
 }
-.spaekers .btn-reg.spaekers .my-btn {
-}
-.spaekers .my-btn.spaekers .fa {
-}
-.spaekers .fa
+
 
 
 

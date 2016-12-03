@@ -155,12 +155,6 @@ section.section-header{
 .spaekers .speaker-head {
     margin-bottom: 80px;
 }
-.spaekers .speaker-head h3 {
-    
-}
-.spaekers .speaker-head p.lead {
-    
-}
 
 .spaekers .speaker-body {
     margin-bottom: 70px;
@@ -176,11 +170,11 @@ section.section-header{
 .spaekers .speaker-body .block-name:hover h4.active{
     color: #6bd8d3;
 }
-.spaekers .speaker-body .block-name:hover a.social{
+.spaekers .speaker-body .block-name:hover span.social{
     opacity: 1;
     cursor: pointer;
 }
-.block-name a.social{
+.block-name span.social{
     display: inline-block;
     margin-left: -70px;
     position: absolute;
@@ -205,10 +199,24 @@ section.section-header{
     padding-top: 20px;
 }
 
+/*=======section.shedule=======*/
 
-
-
-
+.calendar{
+    border: 3px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ececec;
+    margin-top: 30px;
+}
+.calendar .tabs .nav-tabs li:not(.active) {
+     background-color: #dddddd;
+}
+.calendar .tabs .nav-tabs li:not(.active) a.tab-control:hover{
+     background-color: #dddddd;
+}
+.calendar .nav a.tab-control{
+    color: #828282;
+    margin-bottom: 3px;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

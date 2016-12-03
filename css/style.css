@@ -84,9 +84,6 @@ section.section-header{
     background-color: #fff;
     
 }
-
-.main-event .col-md-6.main-event .col-md-6 p {
-}
 .main-event h2 {
     margin: 0;
     padding-bottom: 20px;
@@ -101,21 +98,18 @@ section.section-header{
     border: 3px solid #ececec;
     border-radius: 5px;
     box-shadow: 0 2px 2px #ececec;
-}
-.main-event .nav {
+    margin-top: 30px;
 }
 .main-event .tabs .nav-tabs li:not(.active) {
-     background-color: #c3c0c0;
+     background-color: #dddddd;
 }
-.main-event .nav a.tab-control:active,
-.main-event .nav a.tab-control:focus,
-.main-event .nav a.tab-control:hover{
+.main-event .tabs .nav-tabs li:not(.active) a.tab-control:hover{
+     background-color: #dddddd;
+}
+.main-event .nav a.tab-control{
     color: #828282;
-/*    background-color: #5d6167;*/
+    margin-bottom: 3px;
 }
-.main-event li.active{
-   
-} 
 .main-event .active {
     display: -webkit-box;
     display: -webkit-flex;
@@ -127,15 +121,8 @@ section.section-header{
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.main-event  a.tab-control {
-    color: #828282;
-}
 .main-event .content{
     padding: 20px 10px
-}
-.main-event #learning {
-}
-.main-event #learning.main-event #learning.main-event #learning p {
 }
 .main-event .learn {
     display: -webkit-box;
@@ -151,8 +138,12 @@ section.section-header{
     justify-content: space-between;
     margin-top: 20px;
 }
-.main-event #learning .list-learn {
-    
+.main-event  .list-learn {
+    list-style-image: url(../img/list.jpg);
+    list-style-position: inside;
+    -webkit-flex-basis: 250px;
+    -ms-flex-preferred-size: 250px;
+    flex-basis: 250px;
 }
 .main-event #learning li {
 }

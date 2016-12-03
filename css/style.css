@@ -204,6 +204,7 @@ section.section-shedule{
     margin-bottom: 80px;
 }
 .shedule {
+    margin-bottom: 50px;
 }
 .shedule .link>a {
     font-size: 18px;
@@ -260,6 +261,20 @@ section.section-shedule{
 .calendar .tab-content .collapse-tab span.collapse-state{
     color:  #2cc7c1;
     font-family: Ubuntu;
+}
+section.video{
+    margin-bottom: 80px;
+}
+.block-video{
+    margin-bottom: 50px;
+}
+.block-promotional .link>a{
+    display: inline-block;
+    background-color: ;
+    color: #2cc7c1;
+    font-family: Ubuntu;
+    padding: 3px 7px;
+    text-transform: uppercase;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

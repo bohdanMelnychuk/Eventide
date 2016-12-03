@@ -200,6 +200,22 @@ section.section-header{
 }
 
 /*=======section.shedule=======*/
+section.section-shedule{
+    margin-bottom: 80px;
+}
+.shedule {
+}
+.shedule .link>a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2cc7c1;
+    font-family: Ubuntu;
+}
+.shedule .link>a>i{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+}
 
 .calendar{
     border: 3px solid #ececec;
@@ -217,7 +233,34 @@ section.section-header{
     color: #828282;
     margin-bottom: 3px;
 }
-
+.calendar .tab-content{
+    padding: 20px;
+}
+.calendar .tab-content .collapse-tab{
+    margin-bottom: 20px;
+}
+.calendar .tab-content .collapse-tab span.time{
+    display: inline-block;
+    background-color: #2cc7c1;
+    color: #fff;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    border-radius: 3px
+}
+.calendar .tab-content .collapse-tab a{
+    display: inline-block;
+    color: #747a84;
+    font-size: 18px;
+    font-family: Ubuntu;
+    padding: 3px 7px;
+}
+.calendar .tab-content .collapse-tab a:focus{
+    text-decoration: none;
+}
+.calendar .tab-content .collapse-tab span.collapse-state{
+    color:  #2cc7c1;
+    font-family: Ubuntu;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 

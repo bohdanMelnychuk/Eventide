@@ -43,6 +43,7 @@ a.my-btn:hover{
 }
 h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
+    font-family: Ubuntu;
 }
 section.section-header{
     background-image: url(../img/brand.jpg);
@@ -71,7 +72,6 @@ section.section-header{
 .header-top>h1{
     text-transform: uppercase;
     font-size: 30px;
-    font-family: Ubuntu;
 }
 .header-top>p{
     font-size: 20px;
@@ -145,25 +145,78 @@ section.section-header{
     -ms-flex-preferred-size: 250px;
     flex-basis: 250px;
 }
-.main-event #learning li {
-}
-.main-event #learning img {
-}
-.main-event #audience {
-}
-.main-event #audience.main-event #audience p {
-}
-.main-event #audience .learn {
-}
-.main-event #audience .list-learn {
-}
-.main-event #audience li {
-}
-.main-event #audience img {
-}
+/*==========section.speakers*/
 
-
-
+.spaekers {
+    border-bottom: 10px solid #f0f0f1;
+    padding-bottom: 80px;
+    margin-bottom: 100px;
+}
+.spaekers .row {
+}
+.spaekers .row .col-sm-6 {
+}
+.spaekers .row .col-sm-6.spaekers .row .col-sm-6 .speaker-body {
+}
+.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
+}
+.spaekers .row .col-sm-6 .speaker-body p {
+}
+.spaekers .row .col-sm-6 .speaker-body {
+}
+.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
+}
+.spaekers .row .col-sm-6 .speaker-body p {
+}
+.spaekers .row .col-sm-6 .speaker-body {
+}
+.spaekers .row .col-sm-6 .speaker-body.spaekers .row .col-sm-6 .speaker-body .block-name {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive {
+}
+.spaekers .row .col-sm-6 .speaker-body .img-responsive.spaekers .row .col-sm-6 .speaker-body h4 {
+}
+.spaekers .row .col-sm-6 .speaker-body p {
+}
+.spaekers .row .col-sm-6 {
+}
+.spaekers .row .col-sm-6.spaekers .speaker-head {
+}
+.spaekers .speaker-head.spaekers .speaker-head .lead {
+}
+.spaekers h3 {
+}
+.spaekers .col-sm-3 {
+}
+.spaekers .col-sm-3 .speaker-body {
+}
+.spaekers .col-sm-3 .speaker-body.spaekers .col-sm-3 .block-name {
+}
+.spaekers .col-sm-3 .img-responsive {
+}
+.spaekers .col-sm-3 .img-responsive.spaekers .col-sm-3 h4 {
+}
+.spaekers .col-sm-3 p {
+}
+.spaekers .speaker-footer {
+}
+.spaekers .speaker-footer.spaekers .speaker-footer .lead {
+}
+.spaekers .btn-reg {
+}
+.spaekers .btn-reg.spaekers .my-btn {
+}
+.spaekers .my-btn.spaekers .fa {
+}
+.spaekers .fa
 
 
 

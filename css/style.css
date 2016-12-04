@@ -248,12 +248,13 @@ section.section-shedule{
     text-transform: uppercase;
     border-radius: 3px
 }
-.calendar .tab-content .collapse-tab a{
+a.links{
     display: inline-block;
-    color: #747a84;
+    color: #2cc7c1;
     font-size: 18px;
     font-family: Ubuntu;
     padding: 3px 7px;
+    text-transform: uppercase;
 }
 .calendar .tab-content .collapse-tab a:focus{
     text-decoration: none;
@@ -262,20 +263,55 @@ section.section-shedule{
     color:  #2cc7c1;
     font-family: Ubuntu;
 }
+/*======section.section-video=======*/
 section.video{
     margin-bottom: 80px;
 }
 .block-video{
     margin-bottom: 50px;
 }
-.block-promotional .link>a{
-    display: inline-block;
-    background-color: ;
-    color: #2cc7c1;
-    font-family: Ubuntu;
-    padding: 3px 7px;
-    text-transform: uppercase;
+
+/*===========section.gallery=======*/
+section.section-galerry{
+    margin-bottom: 80px;
 }
+.galerry {
+}
+.galerry h3 {
+    margin: 30px 0;
+}
+.carousel-indicators{
+    left: 0;
+    bottom: 10px;
+    margin: 0;
+    width: auto;
+    margin-left: 30px;
+}
+.carousel-indicators>li{
+    border: 1px solid #2cc7c1;
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+}
+.carousel-indicators>li.active{
+    background-color: #2cc7c1;
+    height: 14px;
+    width: 14px;
+}
+.carousel-inner .item{
+    min-height: 300px;
+}
+.bg-slider{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 

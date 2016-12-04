@@ -276,6 +276,7 @@ section.section-galerry{
     margin-bottom: 80px;
 }
 .galerry {
+    margin-bottom: 50px;
 }
 .galerry h3 {
     margin: 30px 0;
@@ -298,8 +299,10 @@ section.section-galerry{
     height: 14px;
     width: 14px;
 }
+/*=====carousel background=====*/
+/*
 .carousel-inner .item{
-    min-height: 300px;
+    height: 300px;
 }
 .bg-slider{
     background-size: cover;
@@ -309,27 +312,126 @@ section.section-galerry{
     position: absolute;
     top: 0;
     left: 0;
-    
 }
+*/
 
+
+
+
+
+/*============section.registr===========*/
+.regist {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f3f3f3;
+}
+.regist .reg-title {
+    margin-bottom: 90px;
+}
+.regist .reg-title h3 {
+    margin-bottom: 30px;
+}
+.form-section{
+    background-color: #fff;
+    padding: 30px;
+}
+.form-section .form-group{
+    margin-bottom: 0;
+}
+.form-section input,
+.form-section select{
+    display: inline-block;
+    height: 45px;
+    color: #828282;
+    font-family: Montserrat;
+    border-radius: 3px;
+    padding-right: 25px;
+    background-color: #efefef;
+}
+.form-control-feedback{
+    top: 0;
+    right: 15px;
+    line-height: 45px;
+}
+.has-success{
+    border-color: #2cc7c1;
+}
+.has-success .form-control-feedback{
+   color: #2cc7c1; 
+}
+.form-section .has-success .form-control,
+.form-section input.form-control:focus{
+    border:2px solid #2cc7c1;
+    background-color: #fff;
+    box-shadow: none;
+}
+.regist .my-btn {
+    margin: 0;
+    width: 100%;
+}
+.select-item{
+    width: 100%;
+}
+/*==select2========*/
+/*field select(bg,text,size)*/
+.select2-container--default .select2-selection--single{
+    height: 45px;
+    text-align: left;
+    background-color: #efefef;
+}
+/*select(vertical-align,color)*/
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 45px;
+    color: #5d6167;
+}
+.select2-container--open .select2-selection--single{
+    background-color: #2cc7c1;
+}
+.select2-container--open .select2-selection--single .select2-selection__rendered{
+    color: #fff;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 10px;
+}
+/*hide placeholder*/
+li.select2-results__option:first-child{
+    display: none;
+}
+/*background list*/
+.select2-results__options,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option[aria-selected="true"]{
+    background-color: #525b54;
+}
+/*color list*/
+.select2-results__options{
+    color: #2cc7c1;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .form-section{
+        padding: 30px 20px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+    .form-section input,
+        .form-section select{
+        margin-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+	.form-section .last{
+        margin-top: 20px;
+    }
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .header-top>h1{
         font-size: 24px;
     }
+    
 }

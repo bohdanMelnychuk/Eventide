@@ -8,7 +8,7 @@ $(function(){
     });
     
     $('.carousel').carousel({
-      interval: false
+      interval: 2000
     });
     
     $('#myForm').validator({

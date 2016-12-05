@@ -407,6 +407,34 @@ li.select2-results__option:first-child{
 .select2-results__options{
     color: #2cc7c1;
 }
+
+
+
+
+
+/*======section.partners=======*/
+.partners {
+    padding: 60px 0;
+}
+.partners .wrap-partner {
+    margin-bottom: 20px;
+}
+.partners .wrap-partner>a>img {
+    margin: 0 auto;
+}
+
+
+/*======section.map=======*/
+.maps {
+    
+}
+.maps .container-fluid {
+}
+.maps .row {
+}
+.maps #map {
+    height: 600px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .form-section{
